@@ -25,6 +25,6 @@ dir.directive('linkFinal', [function () {
             }
 
         },
-        template: '<input class="url" value="http://rbvradios.com.br/bolorama/redirect.html?android={{android}}&apple={{apple}}" type="text" /><button class="button" ng-click="copiar();"> Copiar </button>'
+        template: '<input class="url" value="http://seu_dominio.com.br/redirect.html?android={{android}}&apple={{apple}}" type="text" /><button class="button" ng-click="copiar();"> Copiar </button>'
     };
 }]);
